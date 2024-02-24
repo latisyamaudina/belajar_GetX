@@ -7,6 +7,13 @@ abstract class Routes {
   static const PROFILE = _Paths.PROFILE;
   static const COUNTER = _Paths.COUNTER;
   static const BIODATA = _Paths.BIODATA;
+  static const LATIHAN = _Paths.LATIHAN;
+  static const LOGIN = _Paths.LOGIN;
+  static const REGISTER = _Paths.REGISTER;
+  static const USERS = _Paths.USERS;
+  static const EMPLOYE = _Paths.EMPLOYE;
+  static const CREATE_EMPLOYE = _Paths.CREATE_EMPLOYE;
+  static const BOTTOM_MENU = _Paths.BOTTOM_MENU;
 }
 
 abstract class _Paths {
@@ -15,4 +22,11 @@ abstract class _Paths {
   static const PROFILE = '/profile';
   static const COUNTER = '/counter';
   static const BIODATA = '/biodata';
+  static const LATIHAN = '/latihan';
+  static const LOGIN = '/login';
+  static const REGISTER = '/register';
+  static const USERS = '/users';
+  static const EMPLOYE = '/employe';
+  static const CREATE_EMPLOYE = '/employe/create';
+  static const BOTTOM_MENU = '/bottom-menu';
 }
